@@ -41,7 +41,7 @@
     const secret = urlParams.get('secret');
     const userId = urlParams.get('userId');
 
-    const deepLink = `roulette-san://reset?email=${encodeURIComponent(email)}&userId=${encodeURIComponent(userId)}&secret=${encodeURIComponent(secret)}`;
+    const deepLink = `roulettesan://reset?email=${encodeURIComponent(email)}&userId=${encodeURIComponent(userId)}&secret=${encodeURIComponent(secret)}`;
 
     document.getElementById('deepLink').href = deepLink;
 
